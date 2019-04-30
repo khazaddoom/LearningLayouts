@@ -17,32 +17,23 @@ img {
        
 } */
 
+* {
+    box-sizing: border-box;
+}
 
 .main {
-    width: 600px;
-    background-color: yellow;
-    border: 1px solid red;
-    height: 200px;
+    max-width: 600px;
+    background-color: rgb(165, 153, 153);
+    border: 1px solid rgb(211, 208, 208);
+    padding: 50px;
+    margin: 0 auto;
+    max-height: 800px;
+    position: relative;
 }
 
-.one {
-    width: 150px;
-    background-color: green;
-    height: 250px;
-    float: left;
 
-}
-
-.two {
-    width: 150px;
-    background-color: blueviolet;
-    height: 250px;
-    float: left;
-}
-
-.main::after {
-
-    content: '';
-    clear: both;
-
+.elem {
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
