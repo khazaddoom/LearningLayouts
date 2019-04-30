@@ -1,4 +1,4 @@
-
+/* 
 div {
     max-width: 550px;
     margin: 0 auto;
@@ -15,4 +15,34 @@ img {
     margin: 8px 10px 10px 10px;
     padding: 4px;
        
+} */
+
+
+.main {
+    width: 600px;
+    background-color: yellow;
+    border: 1px solid red;
+    height: 200px;
+}
+
+.one {
+    width: 150px;
+    background-color: green;
+    height: 250px;
+    float: left;
+
+}
+
+.two {
+    width: 150px;
+    background-color: blueviolet;
+    height: 250px;
+    float: left;
+}
+
+.main::after {
+
+    content: '';
+    clear: both;
+
 }
