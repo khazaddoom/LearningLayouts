@@ -21,7 +21,7 @@ img {
     box-sizing: border-box;
 }
 
-.main {
+/* .main {
     max-width: 600px;
     background-color: rgb(165, 153, 153);
     border: 1px solid rgb(211, 208, 208);
@@ -38,4 +38,32 @@ img {
 
     right: 0px;
     bottom: 0px;
+} */
+
+.container {
+    position: relative;
+}
+
+header {
+    border: 1px solid lime;
+    margin-bottom: 10px;
+    padding: 50px;
+    background-color: bisque;
+    font-weight: bolder;
+}
+
+section {
+    padding: 50px;
+    margin-left: 210px;
+    margin-bottom: 10px;
+    border: 2px solid red
+
+}
+
+nav {
+    position: absolute;
+    border: 2px solid green;
+    width: 200px;
+    background-color: cornflowerblue;
+    height: 60vh
 }
